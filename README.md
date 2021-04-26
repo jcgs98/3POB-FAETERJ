@@ -8,6 +8,7 @@ Programação Orientada a Objetos
 [CavalinhoDoBozo] O jogo de corrida de cavalos do BOZO tem 3 cavalos: o pretinho, o branquinho e o malhadinho, todos 3 pertencentes à classe cavalo. Um cavalo armazena uma string com o nome do cavalo, onde somente serão válidas as strings pretinho, branquinho ou malhadinho, uma string que será seu avatar (B> caso o cavalo seja branco, M> se for o malhado e P> se for o preto), e a distância atual que ele já conseguiu percorrer (número real). Todos esses atributos são privados. Ao ser criado um dos três cavalos, indicamos o nome do cavalo (entre os válidos) e a distância percorrida é iniciada com zero. A classe cavalo implementa três métodos: 1) o construtor, conforme descrito acima; 2) a correr, que sorteia um número real entre 0 e 1, acumula esse valor a sua distância percorrida (número real) e chama a função privada mostrar do objeto, e retorna a distância atual já percorrida pelo cavalo; e 3) o método privado mostrar, que exibe no console um linha com o nome do cavalo e, ao lado, o caractere avatar dele, distante n caracteres da posição do dois pontos, sendo n a parte inteira da distância percorrida. Considerando a distância zero, a situação inicial da tela será a seguinte:
 
 BRANQUINHO: B>
+
 MALHADINHO: M>
 
 PRETINHO: P>
@@ -15,6 +16,7 @@ PRETINHO: P>
 O programa principal deverá: criar os três cavalos, e iniciar um repetição enquanto nenhum dos cavalos tenha atingido a linha de chegada (60 caracteres da largada). Em cada repetição, o método correr de cada um dos 3 cavalos deverá ser invocado e devem ser executadas 25 quebras de linhas, para forçar a limpeza do console. Ao final, o cavalo campeão deve ser exibido e o programa finalizado. Exemplo:
 
 BRANQUINHO: B>
+
 MALHADINHO: M>
 
 PRETINHO: P>
